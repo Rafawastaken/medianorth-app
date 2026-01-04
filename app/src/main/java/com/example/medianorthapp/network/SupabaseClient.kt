@@ -15,8 +15,8 @@ import java.util.*
 object SupabaseClient {
 
     // ── Config ─────────────────────────────────────────────────────
-    private const val SUPABASE_URL = "https://nwwlfkosnjrpflmtcttg.supabase.co"
-    private const val SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im53d2xma29zbmpycGZsbXRjdHRnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTAyNzE2MDcsImV4cCI6MjA2NTg0NzYwN30.GMaR_PAaEkN-WGV_NCt9-gQUKCjkwOF3tPIUTbyP6iI"
+    private const val SUPABASE_URL = "https://cksxhcesfwijrfyuxhaq.supabase.co"
+    private const val SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNrc3hoY2VzZndpanJmeXV4aGFxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc1NTE2NTEsImV4cCI6MjA4MzEyNzY1MX0.sMNstGbyW6whQiS9Anp7jcjO-1QFBxK7sIp3m9Fxcfg"
     private const val DEVICES_TABLE = "device"
 
     private val client = OkHttpClient()
